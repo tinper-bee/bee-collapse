@@ -48,7 +48,7 @@ const propTypes = {
 	transitionAppear: PropTypes.bool,
 
 	/**
-	 * 折叠时动画效果时间
+	 * 设置超时时间，防止出现问题，可设置为>=动画时间
 	 */
 	timeout: PropTypes.number,
 
