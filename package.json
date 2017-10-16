@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "bee-transition": "^1.0.0",
     "classnames": "^2.2.5",
     "bee-transition": "^1.0.0",
     "tinper-bee-core": "latest"

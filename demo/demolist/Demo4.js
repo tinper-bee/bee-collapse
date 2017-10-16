@@ -38,7 +38,7 @@ export default class Demo1 extends Component {
 		return (
 			<div className="demo4">
 		        <Button colors="primary" onClick={ ()=> this.setState({ open: !this.state.open })}>
-		          点我啦
+		          各种Exit事件
 		        </Button>
 		        
 		        <Collapse in={this.state.open} onExit={this.onExit} onExiting={this.onExiting} onExited={this.onExited}>
