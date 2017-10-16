@@ -25,7 +25,7 @@ export default class Demo1 extends Component {
 	render() {
 		return (
 			<div>
-		        <Button onClick={ ()=> this.setState({ open: !this.state.open })}>
+		<Button  colors="primary" onClick={ ()=> this.setState({ open: !this.state.open })}>
 		          点我啦
 		        </Button>
 		        

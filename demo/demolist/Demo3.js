@@ -26,19 +26,21 @@ export default class Demo1 extends Component {
 		this.onEntered = this.onEntered.bind(this);
 	}
 	onEnter() {
-		alert("我将要显示");
+
+		document.getElementById('desc').innerHTML = "内容将要显示";
 	}
 	onEntering() {
-		alert("我正在显示");
+
+		document.getElementById('desc').innerHTML = "内容正在显示";
 	}
 	onEntered() {
-		alert("我已显示完成");
+		document.getElementById('desc').innerHTML = "内容已显示完成";
 	}
 	render() {
 		return (
-			<div>
-		        <Button onClick={ ()=> this.setState({ open: !this.state.open })}>
-		          点我啦
+			<div className="demo3">
+		        <Button colors="primary" onClick={ ()=> this.setState({ open: !this.state.open })}>
+		          各种EnterEvent
 		        </Button>
 		        
 		        <Collapse in={this.state.open} onEnter={this.onEnter} onEntering={this.onEntering} onEntered={this.onEntered}>
@@ -47,6 +49,7 @@ export default class Demo1 extends Component {
 		          </div>
 		        </Collapse>
 
+		        <p id="desc">我来显示具体调用事件的信息</p>
 		       
 		    </div>
 		)

@@ -25,8 +25,8 @@ export default class Demo1 extends Component {
 	render() {
 		return (
 			<div className="demo5">
-		        <Button onClick={ ()=> this.setState({ open: !this.state.open })}>
-		          点我啦
+		        <Button colors="success" onClick={ ()=> this.setState({ open: !this.state.open })}>
+		          点我内容横向动态显示隐藏
 		        </Button>
 		        
 		        <Collapse in={this.state.open} dimension="width" >
