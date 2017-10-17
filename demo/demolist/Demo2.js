@@ -4,9 +4,7 @@
  * @description collapse中使用unmountOnExit，默认值为false，unmountOnExit为true时每次隐藏折叠区时，组件会从dom中删除；为false时，不会删除
  */
 
-import React, {
-	Component
-} from 'react';
+import React, {Component} from 'react';
 
 import Button from 'bee-button';
 
@@ -14,7 +12,7 @@ import Collapse from '../../src';
 
 
 
-export default class Demo1 extends Component {
+class Demo1 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -41,3 +39,5 @@ export default class Demo1 extends Component {
 
 	}
 }
+
+export default Demo1;

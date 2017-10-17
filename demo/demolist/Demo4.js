@@ -5,9 +5,7 @@
  *
  */
 
-import React, {
-	Component
-} from 'react';
+import React, {Component} from 'react';
 
 import Button from 'bee-button';
 
@@ -15,7 +13,7 @@ import Collapse from '../../src';
 
 
 
-export default class Demo1 extends Component {
+class Demo1 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -53,3 +51,4 @@ export default class Demo1 extends Component {
 
 	}
 }
+export default Demo1;
