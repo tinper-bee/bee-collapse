@@ -5,23 +5,4 @@
 @import "../node_modules/bee-button/src/Button.scss";
 @import "../node_modules/bee-transition/src/Transition.scss";
 
-.collapsing.width {
-	position: relative;
-    width: 0;
-    overflow: hidden;
-    transition-property: width, visibility;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    height: 25px;
-}
 
-.demo3, .demo4 {
-	.collapsing {
-		transition-duration: 0.5s;
-	}
-	#desc, #desc4 {
-		border: 1px solid rgb(30,136,229);
-	    background: #eee;
-	    padding: 10px;
-	}
-}

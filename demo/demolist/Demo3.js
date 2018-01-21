@@ -37,11 +37,17 @@ class Demo1 extends Component {
 	render() {
 		return (
 			<div className="demo3">
-		        <Button colors="primary" onClick={ ()=> this.setState({ open: !this.state.open })}>
+		        <Button
+					colors="primary"
+					onClick={ ()=> this.setState({ open: !this.state.open })}>
 		          各种EnterEvent
 		        </Button>
 		        
-		        <Collapse in={this.state.open} onEnter={this.onEnter} onEntering={this.onEntering} onEntered={this.onEntered}>
+		        <Collapse
+					in={this.state.open}
+					onEnter={this.onEnter}
+					onEntering={this.onEntering}
+					onEntered={this.onEntered}>
 		          <div>
 		            我是折叠区域的内容，点击按钮我就显示，再次点击就会隐藏。快来点击按钮体验我的交互效果吧，是不是很棒！赶快使用吧~~~
 		          </div>
