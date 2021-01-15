@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/tinper-bee/bee-collapse/compare/v1.0.3...v1.0.4) (2021-01-15)
+
+
+### Bug Fixes
+
+* 增加dom-helpers依赖 ([b0558e9](https://github.com/tinper-bee/bee-collapse/commit/b0558e90bdd23ec7afd7ed434eed4dd08a115724))
+
+
+
 ## [1.0.3](https://github.com/tinper-bee/bee-collapse/compare/v1.0.2...v1.0.3) (2020-04-24)
 
 
