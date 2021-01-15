@@ -42,6 +42,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "bee-transition": "^1.0.0",
+    "dom-helpers": "^3.0.0",
     "tinper-bee-core": "latest"
   },
   "peerDependencies": {
